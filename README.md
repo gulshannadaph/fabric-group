@@ -1,9 +1,22 @@
 # Para Bank E2E Test Automation Framework
 
-This project is an end-to-end (E2E) test automation framework for the Para Bank application using Playwright. It covers both UI and API test scenarios.
+This project contains automated tests for the Para Bank application using Playwright. The tests cover various functionalities including user registration, navigation, account creation, fund transfer, bill payment, and finding transactions by amount.
 
 ## Project Structure
-
+/workspace
+├── playwright.config.js
+├── package.json
+├── utils.js
+├── pages
+│   ├── basePage.js
+│   ├── registrationPage.js
+│   ├── homePage.js
+│   ├── accountPage.js
+│   ├── transferPage.js
+│   ├── billPayPage.js
+│   └── findTransactionPage.js
+└── tests
+    ├── ui-tests.spec.js
 
 ## Prerequisites
 
@@ -22,6 +35,7 @@ This project is an end-to-end (E2E) test automation framework for the Para Bank 
    npm install
 
 4. Running Tests
+   ```sh
    npx playwright test
 
 5. Reporting
