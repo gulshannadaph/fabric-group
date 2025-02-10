@@ -3,6 +3,8 @@
 This project contains automated tests for the Para Bank application using Playwright. The tests cover various functionalities including user registration, navigation, account creation, fund transfer, bill payment, and finding transactions by amount.
 
 ## Project Structure
+
+   ```sh
 /workspace
 ├── playwright.config.js
 ├── package.json
